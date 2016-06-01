@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package DATOS;
+
+
+public class Direccion {
+    private String avenidaprincipal; 
+    private int calle; 
+    private int carrera; 
+    private String orientacion; 
+
+    public Direccion(String avenidaprincipal, int calle, int carrera, String orientacion) {
+        this.avenidaprincipal = avenidaprincipal;
+        this.calle = calle;
+        this.carrera = carrera;
+        this.orientacion = orientacion;
+    }
+    
+    
+    
+    
+    
+}
